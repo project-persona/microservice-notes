@@ -1,7 +1,7 @@
 {
   "name": "@persona/microservice-notes",
   "version": "0.1.0",
-  "description": "Notes microservice",
+  "description": "the note microservice for Persona project",
   "main": "index.js",
   "scripts": {
     "run": "node index.js",
@@ -21,7 +21,10 @@
   "homepage": "https://github.com/project-persona/microservice-template#readme",
   "dependencies": {
     "@persona/infra": "git+https://github.com/project-persona/infra.git",
-    "mongodb": "^4.0.0"
+    "firebase-admin": "^9.11.0",
+    "mongo-dot-notation": "^2.0.0",
+    "mongodb": "^4.0.0",
+    "parameter": "^3.6.0"
   },
   "devDependencies": {
     "husky": "^7.0.1",
