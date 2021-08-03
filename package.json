@@ -4,7 +4,7 @@
   "description": "the note microservice for Persona project",
   "main": "index.js",
   "scripts": {
-    "run": "node index.js",
+    "start": "node index.js",
     "lint": "standard",
     "test": "npm run lint && echo \"Warning: no test specified\"",
     "prepare": "husky install"
